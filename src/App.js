@@ -32,18 +32,19 @@ function App() {
         
     <div className="container" style={myStyle}>
 
+      {/* Current-value */}
       <div id="counter-value">
         <h1 style={styleValue}>{count}</h1>
       </div>
 
+      {/* Buttons to control current value */}
       <div>
         <button className='btn btn-success mx-4' onClick={decreaseCount}>Decrease</button>
         <button className='btn btn-primary mx-4' onClick={resetCount}>Reset</button>
         <button className='btn btn-danger mx-4' onClick={increaseCount}>Increase</button>
       </div>
-
     </div>
-    
+
     </>
   );
 }
